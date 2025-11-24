@@ -2,7 +2,7 @@
 name = "spinsight"
 version = "1.2.0"
 description = "MR image simulator for teaching purposes"
-authors = [{ name = "Johan Berglund", email = "johan.berglund@akademiska.se" }]
+authors = [{ name = "Johan Berglund", email = "berglund.hpj@gmail.com" }]
 requires-python = ">=3.10"
 readme = "README.md"
 license = "GPL-3.0-or-later"
@@ -21,13 +21,14 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/bretglun/spinsight"
+Homepage = "http://spinsight.surgsci.uu.se/"
+Repository = "https://github.com/bretglun/spinsight"
 
 [project.scripts]
 spinsight = "spinsight.deploy:CLI"
 
 [dependency-groups]
-dev = ["pytest>=8.3.2,<9"]
+dev = ["pytest>=8.3.2"]
 
 [build-system]
 requires = ["hatchling"]

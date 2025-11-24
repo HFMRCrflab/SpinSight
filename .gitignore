@@ -6,6 +6,7 @@
 *.jpeg
 *.jpg
 *.npy
+/old
 /dist
 
 # latex aux files
