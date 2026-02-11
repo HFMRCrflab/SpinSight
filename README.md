@@ -56,12 +56,19 @@ SpinSight is distributed under the terms of the GNU General Public License. See 
 
 Contact Information
 -------------------
+For Spinsight
 Johan Berglund, Ph.D.  
 Uppsala University Hospital,  
 Uppsala, Sweden  
 johan.berglund@akademiska.se
 
-![](spinsight.png)
+![](spinsight.png) 
+
+For MagnetXplorer
+Roberta Frass-Kriegl, Ph.D.
+Medical University of Vienna
+Vienna, Austria
+roberta.frass@meduniwien.ac.at
 
 ---
 Copyright © 2021–2025 Johan Berglund.
