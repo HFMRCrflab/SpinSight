@@ -2059,7 +2059,7 @@ def getApp(darkMode=True, settingsFilestem=''):
     
     
     # @todo IN THE FOLLOWING LINE PLEASE REPLACE WITH THE IMAGE FILE THAT YOU WANT TO DISPLAY AS A REAL WORLD PREVIEW OF YOUR PHANTOM.
-    dmapKspace = pn.pane.Image("C:/Users/roberta/AppData/Local/anaconda3/envs/spinsight/Lib/site-packages/spinsight/phantoms/Arkynox_front/Arkynox_2x_clean_center.svg")
+    dmapKspace = pn.pane.Image("X/Arkynox_2x_clean_center.svg")
     dmapMRimage = hv.DynamicMap(simulator.getImage)
     dmapSequence = pn.Column(hv.DynamicMap(simulator.getSequencePlot), simulator.param.shot, visible=False)
     loadButton = pn.widgets.Button(name='Load settings', visible=settingsFile.is_file())
@@ -2104,4 +2104,5 @@ def getApp(darkMode=True, settingsFilestem=''):
         dmapSequence, 
         pn.Row(pn.pane.Markdown(author), pn.pane.Markdown(version))
     )
+
     return dashboard
