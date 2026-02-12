@@ -2,6 +2,12 @@
 
 MagnetXplorers is using a simplified version of the SpinSight MRI simulator.
 
+For informations about Spinsight, please contact his author:
+Johan Berglund, Ph.D.
+Uppsala University Hospital,
+Uppsala, Sweden
+johan.berglund@akademiska.se
+
 ---
 Install through Anaconda:
 
@@ -45,6 +51,7 @@ Roberta Frass-Kriegl, Ph.D.
 Medical University of Vienna
 Vienna, Austria
 roberta.frass@meduniwien.ac.at
+<img width="2507" height="3333" alt="Screenshot_Simulation" src="https://github.com/user-attachments/assets/4f813cc9-fef7-4a3c-ba5b-2c46b31c9453" />
 
 ---
 Copyright © 2021–2025 Johan Berglund.
