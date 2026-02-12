@@ -14,9 +14,9 @@ spinsight
 ```
 This serves SpinSight on the local host, so that the simulator can be run by navigating to [localhost](http://localhost) in the web browser. The same command line tool can be used to deploy the simulator on a local network, or on a web server (run `spinsight -h` for help). Be aware that several minutes are required upon loading a phantom for the first time.
 
-# MagnetXplorer
+# MagnetXplorers
 
-MagnetXplorer is using a simplified version of the SpinSight MRI simulator.
+MagnetXplorers is using a simplified version of the SpinSight MRI simulator.
 
 ---
 Install through Anaconda:
@@ -42,7 +42,7 @@ To create a new phantom, add a directory with the phantom name under [spinsight/
 * All paths must be closed
 * All paths must have a fill color matching a hexcolor defined in the `TISSUES` dict in (./spinsight/constants.py) (this defines the tissue).
 * Only polygons are supported (not Bézier curves etc)
-* Text characters must be avoided if possible. If not, they may raise an error from the code. 
+* Text characters must be avoided if possible. If not, they may raise an error from the code. If it is the case, try drawing the letters or numbers you want to include. 
 
 We recommend Inkscape for the phantom construction, it has been used for the development of Arkynox. However, any software generating an svg file will work.
 
