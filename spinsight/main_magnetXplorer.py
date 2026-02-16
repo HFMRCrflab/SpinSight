@@ -2058,8 +2058,8 @@ def getApp(darkMode=True, settingsFilestem=''):
     #                        visible=False)
     
     
-    # @todo IN THE FOLLOWING LINE PLEASE REPLACE WITH THE IMAGE FILE THAT YOU WANT TO DISPLAY AS A REAL WORLD PREVIEW OF YOUR PHANTOM.
-    dmapKspace = pn.pane.Image("X/Arkynox_2x_clean_center.svg")
+    # @todo IN THE FOLLOWING LINE PLEASE REPLACE THE "X" WITH THE CORRECT PATH IN ORDER TO DISPLAY THE REFERENCE PICTURE OF THE ARKYNOX IN THE SIMULATOR INTERFACE.
+    dmapKspace = pn.pane.Image("X/phantom//Arkynox_2x_clean_center.svg")
     dmapMRimage = hv.DynamicMap(simulator.getImage)
     dmapSequence = pn.Column(hv.DynamicMap(simulator.getSequencePlot), simulator.param.shot, visible=False)
     loadButton = pn.widgets.Button(name='Load settings', visible=settingsFile.is_file())
@@ -2106,3 +2106,4 @@ def getApp(darkMode=True, settingsFilestem=''):
     )
 
     return dashboard
+
