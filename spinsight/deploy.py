@@ -7,7 +7,7 @@ import optparse
 from pathlib import Path
 import sys
 sys.path.append(str(Path(__file__).parent.parent))
-from spinsight import main_magnetXplorer
+from spinsight import main_magnetXplorers
 from datetime import datetime
 
 
