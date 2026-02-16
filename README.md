@@ -46,7 +46,7 @@ SpinSight is distributed under the terms of the GNU General Public License. See 
 
 Contact Information
 -------------------
-For MagnetXplorer <br>
+For MagnetXplorers <br>
 Roberta Frass-Kriegl, Ph.D. <br>
 Medical University of Vienna <br>
 Vienna, Austria <br>
