@@ -18,7 +18,7 @@ Install through Anaconda:
 5. In the Anaconda prompt check that everything is installed by typing "pip show spinsight". If nothing or an error comes back then something went wrong with the installation.
 6. In case you receive a text message back, check for the "location" folder. Copy and paste this location in your "File explorer".
 7. Then click on the "spinsight" folder and replace the content of the folder "spinsight" that you downloaded from here on Github. You are done installing the interface.
-
+8. IMPORTANT: In order to load the "digital phantom" of Arkynox (see B. of the screenshot at the end of this page), you need to change the "X" line 2062 of the "main_magnetXplorers.py" file in order to indicate the location of the "Arkynox_2x_clean_center.svg" file.
 ---
 How to run the MagnetXplorer interface:
 1. Open the Anaconda prompt.
@@ -46,10 +46,10 @@ SpinSight is distributed under the terms of the GNU General Public License. See 
 
 Contact Information
 -------------------
-For MagnetXplorer
-Roberta Frass-Kriegl, Ph.D.
-Medical University of Vienna
-Vienna, Austria
+For MagnetXplorer <br>
+Roberta Frass-Kriegl, Ph.D. <br>
+Medical University of Vienna <br>
+Vienna, Austria <br>
 roberta.frass@meduniwien.ac.at
 <img width="2507" height="3333" alt="Screenshot_Simulation" src="https://github.com/user-attachments/assets/4f813cc9-fef7-4a3c-ba5b-2c46b31c9453" />
 
