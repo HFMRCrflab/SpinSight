@@ -49,7 +49,7 @@ def CLI():
     # serve application
     try:
         startTime = datetime.now()
-        def getApp(): return main.getApp(darkMode, options.settingsFile, startTime) # closure function
+        def getApp(): return main_magnetXplorers.getApp(darkMode, options.settingsFile, startTime) # closure function
         pn.serve(getApp, show=False, title='SpinSight', port=options.port, websocket_origin=['{}:{}'.format(host, options.port) for host in hosts])
     except OSError as e:
         print(e)
