@@ -12,8 +12,8 @@ johan.berglund@akademiska.se
 Install through Anaconda:
 
 1. Install Anaconda through the website.
-2. Create an environment with Python 3.1
-3. Open the environment in the Anaconda prompt
+2. Create an environment with Python 3.10 (compatibility issues have sometimes been observed when using 3.11).
+3. Open the environment in the Anaconda prompt (by clicking on the windows key and then typing "Anaconda prompt" and then type "activate X" with X being the name of your environment). ALTERNATIVELY: Right click on the green "play" icon next to the name of the environment and select "Open Terminal".
 4. Then type "pip install spinsight"
 5. In the Anaconda prompt check that everything is installed by typing "pip show spinsight". If nothing or an error comes back then something went wrong with the installation.
 6. In case you receive a text message back, check for the "location" folder. Copy and paste this location in your "File explorer".
