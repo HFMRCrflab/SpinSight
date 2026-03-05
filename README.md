@@ -22,9 +22,11 @@ Install through Anaconda:
 ---
 How to run the MagnetXplorer interface:
 1. Open the Anaconda prompt.
-2. Open the environment in which you installed spinsight.
+2. Open the environment in which you installed spinsight by typing "activate X". X being the name of said environment.
 3. Type "spinsight"
 4. Click on the "localhost" link that will appear in the prompt. This should open a tab in your default browser with the MagnetXplorer interface. It will take some minutes the very first time as the code has to generate and save specific files for the phantoms.
+
+/!\ If you receive the error message [WinError] Access denied, please close the cmd prompt and open it as an Administrator.
 
 Phantom construction
 --------------------
